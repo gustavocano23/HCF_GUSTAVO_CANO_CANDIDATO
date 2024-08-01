@@ -1,0 +1,85 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\gusta\\source\\repos\\WebApplication_Bills\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{935A6C4A-FAAE-43E1-ACAF-8848D695785F}|WebApplication_Bills\\WebApplication_Bills.csproj|c:\\users\\gusta\\source\\repos\\webapplication_bills\\webapplication_bills\\webapplication_bills.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{935A6C4A-FAAE-43E1-ACAF-8848D695785F}|WebApplication_Bills\\WebApplication_Bills.csproj|solutionrelative:webapplication_bills\\webapplication_bills.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{935A6C4A-FAAE-43E1-ACAF-8848D695785F}|WebApplication_Bills\\WebApplication_Bills.csproj|c:\\users\\gusta\\source\\repos\\webapplication_bills\\webapplication_bills\\views\\bills\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{935A6C4A-FAAE-43E1-ACAF-8848D695785F}|WebApplication_Bills\\WebApplication_Bills.csproj|solutionrelative:webapplication_bills\\views\\bills\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{935A6C4A-FAAE-43E1-ACAF-8848D695785F}|WebApplication_Bills\\WebApplication_Bills.csproj|c:\\users\\gusta\\source\\repos\\webapplication_bills\\webapplication_bills\\controllers\\billscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{935A6C4A-FAAE-43E1-ACAF-8848D695785F}|WebApplication_Bills\\WebApplication_Bills.csproj|solutionrelative:webapplication_bills\\controllers\\billscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{935A6C4A-FAAE-43E1-ACAF-8848D695785F}|WebApplication_Bills\\WebApplication_Bills.csproj|c:\\users\\gusta\\source\\repos\\webapplication_bills\\webapplication_bills\\views\\bills\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{935A6C4A-FAAE-43E1-ACAF-8848D695785F}|WebApplication_Bills\\WebApplication_Bills.csproj|solutionrelative:webapplication_bills\\views\\bills\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "WebApplication_Bills.csproj",
+              "DocumentMoniker": "C:\\Users\\gusta\\source\\repos\\WebApplication_Bills\\WebApplication_Bills\\WebApplication_Bills.csproj",
+              "RelativeDocumentMoniker": "WebApplication_Bills\\WebApplication_Bills.csproj",
+              "ToolTip": "C:\\Users\\gusta\\source\\repos\\WebApplication_Bills\\WebApplication_Bills\\WebApplication_Bills.csproj",
+              "RelativeToolTip": "WebApplication_Bills\\WebApplication_Bills.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-08-01T15:20:50.711Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BillsController.cs",
+              "DocumentMoniker": "C:\\Users\\gusta\\source\\repos\\WebApplication_Bills\\WebApplication_Bills\\Controllers\\BillsController.cs",
+              "RelativeDocumentMoniker": "WebApplication_Bills\\Controllers\\BillsController.cs",
+              "ToolTip": "C:\\Users\\gusta\\source\\repos\\WebApplication_Bills\\WebApplication_Bills\\Controllers\\BillsController.cs",
+              "RelativeToolTip": "WebApplication_Bills\\Controllers\\BillsController.cs",
+              "ViewState": "AQIAAFYAAAAAAAAAAAAAAHcAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-01T14:50:43.117Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\gusta\\source\\repos\\WebApplication_Bills\\WebApplication_Bills\\Views\\Bills\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebApplication_Bills\\Views\\Bills\\Index.cshtml",
+              "ToolTip": "C:\\Users\\gusta\\source\\repos\\WebApplication_Bills\\WebApplication_Bills\\Views\\Bills\\Index.cshtml",
+              "RelativeToolTip": "WebApplication_Bills\\Views\\Bills\\Index.cshtml",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAgAAABaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-01T14:48:09.752Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\gusta\\source\\repos\\WebApplication_Bills\\WebApplication_Bills\\Views\\Bills\\Create.cshtml",
+              "RelativeDocumentMoniker": "WebApplication_Bills\\Views\\Bills\\Create.cshtml",
+              "ToolTip": "C:\\Users\\gusta\\source\\repos\\WebApplication_Bills\\WebApplication_Bills\\Views\\Bills\\Create.cshtml",
+              "RelativeToolTip": "WebApplication_Bills\\Views\\Bills\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-01T14:48:07.529Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+﻿@{
+    ViewData["Title"] = "Facturas";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Registro de Facturas</h1>
+
+    <div class="mt-3 mb-5">
+        <a href="@Url.Action("Create", "Bills")" class="btn btn-primary">Crear Factura</a>
+    </div>
+
+    <div class="container mt-5">
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>Factura #</th>
+                    <th>Descripción</th>
+                    <th>Cantidad</th>
+                    <th>Precio por Unidad</th>
+                    <th>SubTotal</th>
+                    <th>Precio Total</th>
+                    <th>Producto #</th>
+                    <th>Nombre</th>
+                    <th>Descripción</th>
+                    <th>Cantidad</th>
+                    <th>Precio por unidad</th>
+                    <th>SubTotal</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in ViewBag.Bill)
+                {
+                    <tr>
+                        <td>@item.BillID</td>
+                        <td>@item.BillDescription</td>
+                        <td>@item.BillAmount</td>
+                        <td>@item.BillUnitValue</td>
+                        <td>@item.BillSubTotal</td>
+                        <td>@item.BillPriceTotal</td>
+                        <td>@item.BillDetailID</td>
+                        <td>@item.BillDetailProduct</td>
+                        <td>@item.BillDetailProductDescription</td>
+                        <td>@item.BillDetailAmount</td>
+                        <td>@item.BillDetailUnitValue</td>
+                        <td>@item.BillDetailSubTotal</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+
+        
+
+</div>

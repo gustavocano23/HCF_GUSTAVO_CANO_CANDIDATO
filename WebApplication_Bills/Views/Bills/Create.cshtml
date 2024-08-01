@@ -1,0 +1,55 @@
+﻿@model Details
+
+@{
+    ViewBag.Title = "Crear Factura";
+}
+
+<div class="text-center mt-3 mb-3">
+    <h1 class="display-4"> Crear Factura</h1>
+</div>
+
+@using (Html.BeginForm("Create", "Bills", FormMethod.Post))
+{
+    <h3>Información de la Factura</h3>
+
+    <div class="form-group">
+        @Html.LabelFor(m => m.BillDescription, "Descripción de la Factura")
+        @Html.TextBoxFor(m => m.BillDescription, new { @class = "form-control" })
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(m => m.BillAmount, "Cantidad")
+        @Html.TextBoxFor(m => m.BillAmount, new { @class = "form-control" })
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(m => m.BillUnitValue, " Precio por Unidad ")
+        @Html.TextBoxFor(m => m.BillUnitValue, new { @class = "form-control" })
+    </div>
+  
+    
+    <br>
+    <hr>
+    <h3>Detalle de la Factura</h3>
+
+    <div class="form-group">
+        @Html.LabelFor(m => m.BillDetailProduct, "Nombre del Producto")
+        @Html.TextBoxFor(m => m.BillDetailProduct, new { @class = "form-control" })
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(m => m.BillDetailProductDescription, "Descripción del Producto")
+        @Html.TextBoxFor(m => m.BillDetailProductDescription, new { @class = "form-control" })
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(m => m.BillDetailAmount, "Cantidad")
+        @Html.TextBoxFor(m => m.BillDetailAmount, new { @class = "form-control" })
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(m => m.BillDetailUnitValue, "Precio por Unidad")
+        @Html.TextBoxFor(m => m.BillDetailUnitValue, new { @class = "form-control" })
+    </div>
+   
+
+    <div class="mt-5">
+        <button type="submit" class="btn btn-primary">Crear</button>
+    </div>
+    
+}
